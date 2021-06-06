@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue';
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #B67023;
+    margin: 0;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #eaeaea;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+}
+
+.menu img {
+    width: 3.8rem;
+    height: 100%;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    margin: 15px;
+    list-style: none;
+    font-family: 'Bebas Neue';
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #B67023;
+}
+
+.link {
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #fff;
+    background-color: #B67023;
+}
+
+.contenedor {
+    width: 100%;
+    justify-content: center;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.nosotros {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.integrantes {
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.integrantes a i {
+    color: #B67023;
+}
+
+.integrantes ul {
+    list-style: none;
+}
+
+.descripcion {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    color: #B67023;
+    padding: 40px 0;
+    margin: 0 10px;
+}
+
+.descripcion p {
+    width: 40%;
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 0 15px;
+}
+
+.descripcion img {
+    width: 40%;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: rgb(122, 120, 120);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer img {
+    padding: 8px 0;
+    width: 10rem;
+    height: 11rem;
+}
+
+.parrafo {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.footer button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.8rem;
+}
+
+.footer button a {
+    color: #fafafa;
+}
+
+.footer button a:hover {
+    color: #C7C057;
+}
+
+.footer .parrafo p a {
+    color: #fafafa;
+    font-size: 1.4rem;
+    margin: 0 5px;
+}
+
+.footer .parrafo p a:hover {
+    color: #ddd9d9;
+}
